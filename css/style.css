@@ -23,18 +23,28 @@ body {
   box-shadow: 0 0 10px black;
 }
 .card__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: relative;
+  height: 360px;
+  padding: 20px 40px;
   background-image: url(../img/pexels-chris-f-1283219.jpg);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  z-index: 0;
 }
 .card__header__shadow {
-  background-color: rgba(0, 0, 0, 0.275);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.29);
   width: 100%;
   height: 100%;
+  z-index: -2;
 }
 .card__header h1 {
   font-family: "Dancing Script", cursive;
   color: white;
-  z-index: 2;
 }/*# sourceMappingURL=style.css.map */

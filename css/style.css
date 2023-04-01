@@ -55,4 +55,18 @@ body {
   font-family: "Dancing Script", cursive;
   color: white;
   font-size: 5rem;
+}
+.card__header input {
+  width: 100%;
+  height: 3rem;
+  border-radius: 20px;
+  border: none;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+.card__header input::-moz-placeholder {
+  font-size: 1.5rem;
+}
+.card__header input::placeholder {
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
